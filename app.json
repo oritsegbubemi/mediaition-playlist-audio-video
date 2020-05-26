@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Meditate",
+    "description": "a playlist of some songs for meditation.",
+    "slug": "meditation-playlist-audio-video",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "png",
+        "ttf"
+      ]
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "sdkVersion": "37.0.0",
+    "githubUrl": "https://github.com/Oritsegbubemi/mediaition-playlist-audio-video"
+  }
+}
